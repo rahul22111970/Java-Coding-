@@ -1,0 +1,64 @@
+Configuring Git
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+Creating a repository
+
+git init
+
+Cloning a repository
+
+git clone <repository-url>
+
+Checking repository status
+
+git status
+
+Adding changes to the staging area
+git add <filename>
+git add .
+
+Committing changes
+
+git commit -m "Commit message"
+
+Viewing commit history
+git log
+
+Pushing changes to a remote repository
+
+git push <remote> <branch>
+
+Pulling changes from a remote repository
+git pull <remote> <branch>
+
+Creating a branch
+git branch <branch-name>
+
+Switching to a branch
+git checkout <branch-name>
+
+Creating a new branch and switching to it
+git checkout -b <branch-name>
+
+Merging changes from one branch to another
+git merge <branch-name>
+
+Viewing branches
+
+git branch
+
+Deleting a branch
+
+git branch -d <branch-name>
+
+Updating local repository with changes from remote repository
+
+git fetch
+git merge origin/master
+
+Undoing changes
+
+git reset <filename>
+git reset --hard HEAD
