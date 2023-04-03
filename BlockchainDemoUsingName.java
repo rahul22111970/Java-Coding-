@@ -63,3 +63,6 @@ class Block {
                 + ", names=" + names + ", balance=" + balance + "]";
     }
 }
+//The BlockchainDemo class is the main class that creates a list of names and initializes the blockchain with a genesis block, which is the first block in the blockchain. Then it creates three more blocks and adds them to the blockchain. Finally, it prints out the contents of each block in the blockchain.
+
+//The Block class represents a block in the blockchain. It contains an index to identify the block, a timestamp to record when the block was created, a hash to uniquely identify the block, a previous hash to link the block to the previous block in the chain, a list of names, and a balance for each name. The calculateHash() method uses the SHA-256 algorithm to generate a unique hash for the block based on its contents.
